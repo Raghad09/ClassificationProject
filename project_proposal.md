@@ -30,17 +30,10 @@ The main goal of this project is to predict whither a startup business will succ
   
 
 ### Data Sources
-
   
-
-In this project, We intend to scrape two website and use additional dataset for more comprehensive used car data.
-
-  
-
--  [Autotrader](https://www.autotrader.com/) : An online marketplace for car buyers and sellers. It aggregates new, used, and certified second-hand cars from dealers and private sellers.
-
--  [Cars.com](https://www.cars.com/): Website for shopping and selling used cars. there is a list of features for each car.
-
--  [Craigslist Cars-trucks Dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data) : a dataset from Craigslist. it contains all relevant information on used car sales including price, condition, manufacturer, and other 23 columns. the dataset is scraped every few months has over 426k rows. 
-
+The aquired data in this project is Crunchbase 2013 Snapshot from 
+[crunchbase.com](https://data.crunchbase.com/docs ) which provide API to access four data sets: Companies, Investments, rounds and acquisitions.
+i'm going to apply data cleaning and feature engineering to obtain a final dataset that serves the model
 ## MVP
+- EDA and applying Data cleaning algorithms.
+- Building and comparing several Classification models. 
